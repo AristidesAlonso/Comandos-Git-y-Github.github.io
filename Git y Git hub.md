@@ -126,6 +126,7 @@ Nota: se hace desde la rama master a la rama que queremos traer
 
 ```javascript
 git log --all --graph --decorate --oneline
+git log --oneline --graph te permite ver las conexiones entre ramas y commits.
 ```
 
 > poner alias a un comando largo
@@ -153,6 +154,7 @@ git remote add origin urldelrepositorioremoto
 ```javascript
 git remote
 git remote -v
+git remote rm. Elimina el remoto de  tu repositorio local.
 ```
 
 > **Tercero: Traer la versión del repositorio remoto y  hacer merge para crear un commit con los archivos de ambas partes. Podemos usar git fetch y git merge o solo el git pull con el flag --allow-unrelated-histories:**
